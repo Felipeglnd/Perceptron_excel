@@ -63,6 +63,9 @@ Como Usar o Arquivo
 Abra o arquivo Perceptron_Excel.xlsx.
 Na planilha Seleção de Valores, verifique os dados gerados aleatoriamente com base nos sete números do RU.
 Na planilha Treinamento, ajuste os pesos e o bias conforme necessário e observe como o Perceptron se comporta ao longo do treinamento.
+Na planilha Perceptron, realize testes com os dados de entrada:
+Se o valor de saída for 1, significa que o número de entrada é maior que o RU.
+Se o valor de saída for -1, significa que o dado de entrada é menor que o RU.
 Acompanhe os cálculos de NETj, delta e bias para verificar os ajustes realizados a cada época.
 Considerações Finais
 Este projeto exemplifica como um Perceptron pode ser implementado e treinado usando o Excel. Embora existam ferramentas mais avançadas para o desenvolvimento de redes neurais, o uso do Excel ajuda a visualizar e compreender os cálculos fundamentais por trás de modelos de aprendizado supervisionado.
