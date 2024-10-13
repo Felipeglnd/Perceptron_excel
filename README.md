@@ -6,14 +6,14 @@ Este projeto implementa um Perceptron utilizando o Excel, com foco em um process
 O objetivo é construir e treinar um Perceptron de múltiplas entradas usando o Excel, com cálculos manuais e automatizados de pesos, bias e função de ativação. O treinamento é concluído quando o erro de predição é minimizado após várias épocas de treinamento.
 
 🛠️ Passo a Passo da Implementação  
-Seleção dos Dados de Entrada
+Seleção dos Dados de Entrada  
 Os dados de entrada utilizados no treinamento são os sete números do RU (ID da universidade), que foram selecionados de forma aleatória.
 
 Na planilha Seleção de Valores, foram gerados cinquenta amostras utilizando uma distribuição normal. Para isso, foram definidos:
 
-Média e Desvio Padrão como parâmetros para gerar as amostras aleatórias.
-Essas amostras são usadas como entradas no Perceptron.
-Atribuição de Pesos Iniciais
+Média e Desvio Padrão como parâmetros para gerar as amostras aleatórias.  
+Essas amostras são usadas como entradas no Perceptron.  
+Atribuição de Pesos Iniciais  
 Na planilha Treinamento, as cinquenta amostras geradas foram utilizadas para iniciar o processo de treinamento. Inicialmente, foram atribuídos pesos iguais a 1,000 para cada um dos sete dados de entrada.
 
 O objetivo nesta etapa é aplicar o cálculo do NETj e do delta para ajustarmos a taxa de aprendizado.
@@ -62,12 +62,12 @@ A cada época, observamos os resultados de predição e objetivo, comparando-os 
 O treinamento foi executado até atingir a época 199, quando a estrutura de entrada foi completamente treinada e os erros de predição foram zerados.
 
 📁 Como Usar o Arquivo  
-Abra o arquivo Perceptron_Excel.xlsx.
-Na planilha Seleção de Valores, verifique os dados gerados aleatoriamente com base nos sete números do RU.
-Na planilha Treinamento, ajuste os pesos e o bias conforme necessário e observe como o Perceptron se comporta ao longo do treinamento.
-Na planilha Perceptron, realize testes com os dados de entrada:
-Se o valor de saída for 1, significa que o número de entrada é maior que o RU.
-Se o valor de saída for -1, significa que o dado de entrada é menor que o RU.
-Acompanhe os cálculos de NETj, delta e bias para verificar os ajustes realizados a cada época.
+Abra o arquivo Perceptron_Excel.xlsx.  
+Na planilha Seleção de Valores, verifique os dados gerados aleatoriamente com base nos sete números do RU.  
+Na planilha Treinamento, ajuste os pesos e o bias conforme necessário e observe como o Perceptron se comporta ao longo do treinamento.  
+Na planilha Perceptron, realize testes com os dados de entrada:  
+Se o valor de saída for 1, significa que o número de entrada é maior que o RU.  
+Se o valor de saída for -1, significa que o dado de entrada é menor que o RU  
+Acompanhe os cálculos de NETj, delta e bias para verificar os ajustes realizados a cada época.  
 🤔 Considerações Finais  
 Este projeto exemplifica como um Perceptron pode ser implementado e treinado usando o Excel. Embora existam ferramentas mais avançadas para o desenvolvimento de redes neurais, o uso do Excel ajuda a visualizar e compreender os cálculos fundamentais por trás de modelos de aprendizado supervisionado.
