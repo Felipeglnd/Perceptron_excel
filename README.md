@@ -1,8 +1,8 @@
-🤖 Perceptron_Excel  
+🤖 #Perceptron_Excel  
 📊 Projeto de Perceptron em Excel  
 Este projeto implementa um Perceptron utilizando o Excel, com foco em um processo de aprendizado supervisionado. Utilizamos um conjunto de dados gerados aleatoriamente, baseados no ID da universidade (RU), e ajustamos os pesos e bias até que o modelo fosse treinado.
 
-🎯 Objetivo do Projeto  
+#🎯 Objetivo do Projeto  
 O objetivo é construir e treinar um Perceptron de múltiplas entradas usando o Excel, com cálculos manuais e automatizados de pesos, bias e função de ativação. O treinamento é concluído quando o erro de predição é minimizado após várias épocas de treinamento.
 
 🛠️ Passo a Passo da Implementação  
