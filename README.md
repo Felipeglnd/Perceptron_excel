@@ -15,8 +15,8 @@ Média e Desvio Padrão como parâmetros para gerar as amostras aleatórias.
 Essas amostras são usadas como entradas para o treinamento do  Perceptron.  
 Atribuição de Pesos Iniciais  
 Na planilha Treinamento, as cinquenta amostras geradas foram utilizadas para iniciar o processo de treinamento. Inicialmente, foram atribuídos pesos iguais a 1,000 para cada um dos sete dados de entrada.  
-O objetivo nesta etapa é aplicar o cálculo do NETj e do delta para ajustarmos a taxa de aprendizado.
 
+O objetivo nesta etapa é aplicar o cálculo do NETj e do delta para ajustarmos a taxa de aprendizado.
 Cálculo do NETj e do Delta
 O cálculo de NETj (a soma ponderada das entradas com os pesos) foi realizado da seguinte forma:
 
