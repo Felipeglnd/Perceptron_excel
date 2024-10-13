@@ -60,12 +60,12 @@ A cada época, observamos os resultados de predição e objetivo, comparando-os 
 O treinamento foi executado até atingir a época 199, quando a estrutura de entrada foi completamente treinada e os erros de predição foram zerados.
 
 # Como Usar o Arquivo
-Abra o arquivo Perceptron_Excel.xlsx.
-Na planilha Seleção de Valores, verifique os dados gerados aleatoriamente com base nos sete números do RU.
-Na planilha Treinamento, ajuste os pesos e o bias conforme necessário e observe como o Perceptron se comporta ao longo do treinamento.
-Na planilha Perceptron, realize testes com os dados de entrada:
-Se o valor de saída for 1, significa que o número de entrada é maior que o RU.
-Se o valor de saída for -1, significa que o dado de entrada é menor que o RU.
+Abra o arquivo Perceptron_Excel.xlsx.  
+Na planilha Seleção de Valores, verifique os dados gerados aleatoriamente com base nos sete números do RU.  
+Na planilha Treinamento, ajuste os pesos e o bias conforme necessário e observe como o Perceptron se comporta ao longo do treinamento.  
+Na planilha Perceptron, realize testes com os dados de entrada:  
+Se o valor de saída for 1, significa que o número de entrada é maior que o RU.  
+Se o valor de saída for -1, significa que o dado de entrada é menor que o RU.  
 Acompanhe os cálculos de NETj, delta e bias para verificar os ajustes realizados a cada época.
 
 # Considerações Finais
