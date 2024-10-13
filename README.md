@@ -1,8 +1,4 @@
 # Perceptron_excel
-Projeto de implementação de um Perceptron utilizando o Excel.
-
-Memória atualizada
-Aqui está a versão completa do README com base no seu passo a passo:
 
 Projeto de Perceptron em Excel
 Este projeto implementa um Perceptron utilizando o Excel, com foco em um processo de aprendizado supervisionado. Utilizamos um conjunto de dados gerados aleatoriamente, baseados no ID da universidade (RU), e ajustamos os pesos e bias até que o modelo fosse treinado.
